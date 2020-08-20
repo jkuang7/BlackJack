@@ -94,8 +94,8 @@
     echo '<p id="user" class="loginStatus" style ="text-align: right; color=white">'.$_SESSION['username'].' is logged in!</p>';
   } else {
     echo '<p class="loginStatus" style ="text-align: right; color=white">You are logged out!</p>';
-    echo '<p class="loginStatus" style ="text-align: right; color=white"> Want to save your game progress? <a href="../BlackJack/signup.php">Sign up</a></p>';
-    echo '<p class="loginStatus" style ="text-align: right; color=white"> Have an account already? <a href="../BlackJack/login.php">Sign in</a></p>';
+    echo '<p class="loginStatus" style ="text-align: right; color=white"> Want to save your game progress? <a href="signup.php">Sign up</a></p>';
+    echo '<p class="loginStatus" style ="text-align: right; color=white"> Have an account already? <a href="login.php">Sign in</a></p>';
   }
 ?>
 
